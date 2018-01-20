@@ -2,4 +2,6 @@ language: scala
 scala:
    - 2.11.12
 
-script: sbt ++$TRAVIS_SCALA_VERSION test
+script:
+  # NOTE: This is just a working-test
+  sbt ++$TRAVIS_SCALA_VERSION run
